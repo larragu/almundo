@@ -1,0 +1,27 @@
+<div class="resultContainer shadow">
+	<div class='hotelImage'><img ng-src="{{$ctrl.hotel.image}}"/></div>
+	<div class="hotelInfo">
+		<span class="hotelName">
+			{{$ctrl.hotel.name}}
+		</span>
+		<div class="hotelRating">
+			<span ng-repeat="i in $ctrl.createArray($ctrl.hotel.stars) track by $index">
+				<img src='/images/star.png'/>
+			</span>
+		</div>
+		<div class="hotelExtras">
+		</div>
+	</div>
+	<div class="hotelPricing">
+		<div class="hotelPricingInfo">
+			Precio por noche por habitación
+		</div>
+		<div class="hotelPrice">
+			ARS <span class="boldText">{{$ctrl.hotel.price | periodFilter}}</span>
+		</div>
+		<div class="hotelPricingInfo">
+			Impuestos y tasas no incluidos
+		</div>
+		<button class="blueButton hotelButton">Ver hotel</button>
+	</div>
+</div>

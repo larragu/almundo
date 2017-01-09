@@ -1,0 +1,9 @@
+<span class='resultsContainer'>
+	Ordenar 
+	<select ng-model="$ctrl.resultsService.selectedOrder" ng-change="$ctrl.resultsService.changeOrder()"
+			ng-options="order.name for order in $ctrl.resultsService.displayOrder">
+	</select>
+	<div ng-repeat="hotel in $ctrl.hotelsService.filteredHotels">
+		<hotel hotel="hotel"></hotel>
+	</div>
+</span>

@@ -1,0 +1,70 @@
+<div class="starsContainer shadow">
+	<span class="filterTitle"><img src='/images/blue_star.png'/> Estrellas</span></br></br>
+	<input type="checkbox" 
+		ng-change="$ctrl.updateStars(0)" 
+		ng-false-value="null" 
+		ng-true-value="true" 
+		ng-model="$ctrl.starsService.selectedStars.all"/>
+	<span ng-class="{ 'boldText': $ctrl.starsService.selectedStars.all }">
+		Todas las estrellas ({{$ctrl.starsService.totalStars.total}})
+	</span>
+	<br/>
+	<input type="checkbox" 
+		ng-change="$ctrl.updateStars(5)" 
+		ng-model="$ctrl.starsService.selectedStars.five"
+		ng-false-value="null" 
+		ng-true-value="true" />
+	<span ng-class="{ 'boldText': $ctrl.starsService.selectedStars.five }">
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/> 
+		({{$ctrl.starsService.totalStars.five}})
+	</span>
+	<br/>
+	<input type="checkbox" 
+		ng-change="$ctrl.updateStars(4)" 
+		ng-false-value="null" 
+		ng-true-value="true" 
+		ng-model="$ctrl.starsService.selectedStars.four"/>
+	<span ng-class="{ 'boldText': $ctrl.starsService.selectedStars.four }">
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/> 
+		({{$ctrl.starsService.totalStars.four}})
+	</span>
+	<br/>
+	<input type="checkbox" 
+		ng-change="$ctrl.updateStars(3)" 
+		ng-model="$ctrl.starsService.selectedStars.three"
+		ng-false-value="null" 
+		ng-true-value="true" />
+	<span ng-class="{ 'boldText': $ctrl.starsService.selectedStars.three }">
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/>
+		({{$ctrl.starsService.totalStars.three}})
+	</span></br>
+	<input type="checkbox" 
+		ng-change="$ctrl.updateStars(2)" 
+		ng-model="$ctrl.starsService.selectedStars.two"
+		ng-false-value="null" 
+		ng-true-value="true" />
+	<span ng-class="{ 'boldText': $ctrl.starsService.selectedStars.two }">
+		<img src='/images/star.png'/>
+		<img src='/images/star.png'/>
+		({{$ctrl.starsService.totalStars.two}})
+	</span></br>
+	<input type="checkbox" 
+		ng-change="$ctrl.updateStars(1)" 
+		ng-model="$ctrl.starsService.selectedStars.one"
+		ng-false-value="null" 
+		ng-true-value="true" />
+	<span ng-class="{ 'boldText': $ctrl.starsService.selectedStars.one }">
+		<img src='/images/star.png'/>
+		({{$ctrl.starsService.totalStars.one}})
+	</span>
+</div>
+

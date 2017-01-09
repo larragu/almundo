@@ -1,0 +1,53 @@
+		.hotelImage {
+			width:33%;
+			float: left;
+			height:100px;
+			text-align: center;
+		}
+
+		.hotelImage > img {
+			max-width:95%;
+			height:100px;
+		}
+
+		.hotelInfo {
+			width:33%;
+			display: inline-block;
+			height:100px;
+			text-align: left;
+		}
+			.hotelName {
+				font-weight: bold;
+			}
+			
+			.hotelRating {
+
+			}
+			.hotelExtras {
+
+			}
+
+		.hotelPricing {
+			border-left:1px dotted black;
+			text-align: center;
+			width:33%;
+			float:right;
+			height:100px;
+		}
+	
+			.hotelPricingInfo {
+				font-size: 10px;
+			}	
+
+			.hotelPrice {
+				font-size:16px;
+				color:orange;
+			}
+
+@media screen and (min-width: 785px) {
+
+			.hotelPricingInfo {
+				padding:5px 0 5px 0;
+			}
+
+}

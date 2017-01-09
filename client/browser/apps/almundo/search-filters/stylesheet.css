@@ -1,0 +1,67 @@
+@media screen and (max-width: 1000px) {
+
+	.filterContainer {
+		max-width:30%;
+		height:200px;
+		padding-right:1em;
+	}
+
+			.priceContainer {
+			background: white;
+			height:100px;
+			margin: 10px 0 5px 0;
+			padding: 10px 10px 10px 10px;
+		}
+
+		.searchContainer input {
+			width:200px;
+		}
+}
+
+
+@media screen and (min-width: 1000px) {
+
+	.filterContainer {
+		float:left;
+		width:30%;
+		height:500px;
+		padding-right:1em;
+	}
+
+
+		.searchContainer input {
+			width:150px;
+		}
+}
+
+		.filterTitle {
+			font-weight: bold;
+			color: #4078a5;
+		}
+
+		.searchContainer {
+			background: white;
+			margin: 10px 0 5px 0;
+			padding: 10px 10px 10px 10px;
+			height:60px;
+			width:100%;
+		}
+
+			.searchButton {
+				min-width:60px;
+				margin-left:10px;
+			}
+
+		.priceContainer {
+			background: white;
+			height:100px;
+			margin: 10px 0 5px 0;
+			padding: 10px 10px 10px 10px;
+		}
+
+		.starsContainer {
+			background: white;
+			height:190px;
+			margin: 10px 0 0px 0;
+			padding: 10px 10px 10px 10px;
+		}
