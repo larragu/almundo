@@ -3,7 +3,6 @@
 ###### Developed by **Alex Larragueta** 
 ###### using the MEAN Stack (Angular 1.x)
 #
-#
 
 ### Instructions
 Before using the app, please enter **localhost:5000/import** on the browser's address bar to populate the database with the sample hotel data.
@@ -32,4 +31,3 @@ Before using the app, please enter **localhost:5000/import** on the browser's ad
 * iPad
 * iPad Pro
 * and more
-* 
